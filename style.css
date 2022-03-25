@@ -24,9 +24,10 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  color: aqua;
   z-index: 100;
   background-color: white;
-  transition: 5s all;
+  transition: 1s all;
 }
 
 .bir {
@@ -45,10 +46,11 @@ section {
   height: 10px;
   z-index: 1;
   position: absolute;
-  top: 216px;
-  right: 55px;
-  transform: translateX(-400px);
-  transition: 2s all;
+  top: 194px;
+  width: 0px;
+  left: 55px;
+  transform: translateX(0px);
+  transition: 1s all;
 }
 
 .btn {
