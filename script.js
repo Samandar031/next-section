@@ -45,6 +45,16 @@
 //   }
 // });
 
+// let tran = document.querySelector(".tran");
+// let prev = document.querySelector(".prev");
+// let next = document.querySelector(".next");
+
+// let all = document.querySelectorAll(".one");
+
+// let x = 0;
+// let y = 0;
+
+
 let tran = document.querySelector(".tran");
 let prev = document.querySelector(".prev");
 let next = document.querySelector(".next");
