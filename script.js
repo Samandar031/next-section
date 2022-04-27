@@ -54,7 +54,6 @@
 // let x = 0;
 // let y = 0;
 
-
 let tran = document.querySelector(".tran");
 let prev = document.querySelector(".prev");
 let next = document.querySelector(".next");
@@ -86,3 +85,17 @@ prev.addEventListener("click", function () {
   all[x + 1].style.color = "aqua";
   func();
 });
+
+let arr = [1, 2, 3, 4, 5, 6];
+let str = arr
+  .filter((val) => {
+    return val > 2;
+  })
+  .map((val) => {
+    return val * 10;
+  })
+  .reduce((yig, val) => {
+    return yig + val;
+  });
+
+console.log(str);
